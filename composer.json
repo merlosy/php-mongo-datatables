@@ -1,0 +1,27 @@
+{
+    "name": "merlosy/mongo-datatables",
+    "description": "Server-side handler of DataTables Jquery Plugin for Laravel 4",
+    "keywords" : ["laravel4","laravel","datatables","mongo","mongodb","datatable","datatables jquery plugin"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Merlosy",
+            "email": "jeremy.legros85@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "bllim/datatables": "~1.4.1",
+        "jenssegers/mongodb": "~1.4.1"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Merlosy\\MongoDatatables\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
